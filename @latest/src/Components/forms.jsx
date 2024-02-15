@@ -73,6 +73,7 @@ const Forms = () => {
   }
 
   return (
+    <div className="outerContainer">
     <div className="mainContainer">
       <form onSubmit={handleSubmit}>
         <label htmlFor="">
@@ -128,6 +129,7 @@ const Forms = () => {
       <div>
         {registationSuccess && (<div>Registration Successfull !!</div>)}
       </div>
+    </div>
     </div>
   );
 };
